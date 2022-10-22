@@ -4,24 +4,30 @@
   
     
     <entry>
-      <title>Hi!</title>
-      <link href="/2022/10/20/Hi/"/>
-      <url>/2022/10/20/Hi/</url>
+      <title>Extraction and Analysis of Global Elevation Control Points from ICESat-2/ATLAS Data</title>
+      <link href="/2022/10/22/test/"/>
+      <url>/2022/10/22/test/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>Citation: WANG Mi, WEI Yu, YANG Bo, ZHOU Xiao. Extraction and Analysis of Global Elevation Control Points from ICESat-2 _&#x2F;ATLAS Data. Geomatics and Information Science of Wuhan University, 2021, 46(2): 184-192. doi: 10.13203&#x2F;j.whugis20200531</p><p>Times Cited: 6</p><p>This article has been published in Jan. 2021. Visit (<a href="http://ch.whu.edu.cn/en/article/doi/10.13203/j.whugis20200531">http://ch.whu.edu.cn/en/article/doi/10.13203/j.whugis20200531</a>) for detailed information.</p><h3 id="Authors"><a href="#Authors" class="headerlink" title="Authors"></a>Authors</h3><p>WANG Mi1,  WEI Yu1, YANG Bo1, ZHOU Xiao2</p><p>1.State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Wuhan 430079, China</p><p>2.Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing 100190, China</p><h3 id="Funds"><a href="#Funds" class="headerlink" title="Funds"></a>Funds</h3><p>The National Natural Science Foundation of China 61825103</p><p>The National Natural Science Foundation of China 91838303</p><p>Scientific Research Program of Hubei Provincial Department of Land and Resources (2018)844-11</p><h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>ICESat-2’s laser data has the highest elevation accuracy up to date, and its observation range covers the global land, which can be used as basic data for the high-precision global ground elevation reference. Based on ICESat-2 &#x2F;ATLAS global laser data product ATL08, this paper obtained ICESat-2 laser points on the global land, and studied the method of extracting global elevation control points based on elevation reference and attribute parameters, and used reference elevation data to verify their accuracy. The obtained laser points were verified by airborne laser data in Shandong experimental field and Henan experimental field in China. And the root mean square error (RMSE) were 1.11 m and 1.39 m respectively before filtering. After filtering with elevation reference and slope constraints, the mean RMSE were 0.69 m and 0.57 m respectively, and the corresponding data retention rates were 61.38% and 60.00%, which proved that the proposed method in this paper could effectively improve the elevation accuracy while ensuring the data retention rate. The airborne laser data from the western, central and eastern United States experimental fields were used to verify the elevation control points. The RMSE of each experimental field was less than 0.9 m, which proved that the extraction method proposed in this paper could be used to extract elevation control points worldwide. This method can automatically extract global elevation control points with high density and high precision, providing support for the stereo mapping of domestic high-resolution satellites without or with few ground control points, and assistance in evaluating the quality of DEM&#x2F;DSM products.</p><h3 id="Keywords"><a href="#Keywords" class="headerlink" title="Keywords"></a>Keywords</h3><p> ATLAS,  spaceborne laser altimeter,  ICESat-2,  global elevation control points</p><p>More infor, <a href="http://ch.whu.edu.cn/en/article/doi/10.13203/j.whugis20200531">http://ch.whu.edu.cn/en/article/doi/10.13203/j.whugis20200531</a></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> EI </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/2022/10/20/miao/"/>
-      <url>/2022/10/20/miao/</url>
+      <title>Hi!</title>
+      <link href="/2022/10/20/Hi/"/>
+      <url>/2022/10/20/Hi/</url>
       
-        <content type="html"><![CDATA[<p>miaomiaomiao</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -37,6 +43,12 @@
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> BasicCommand </tag>
+            
+        </tags>
       
     </entry>
     
