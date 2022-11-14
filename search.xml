@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>A Framework and Key Technologies - Geometric Positioning Integrating Optical Satellite Stereo Imagery and A Global Database of ICESat-2 Laser Control Points</title>
+      <link href="/2022/11/14/SCI-1/"/>
+      <url>/2022/11/14/SCI-1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Authors"><a href="#Authors" class="headerlink" title="Authors"></a>Authors</h3><p>WANG Mi1,  WEI Yu1, Yingdong PI1,2</p><p>1.State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Wuhan 430079, China</p><p>2.School of Resource and Environmental Sciences, Wuhan University, Wuhan 430079, China</p><h3 id="Funds"><a href="#Funds" class="headerlink" title="Funds"></a>Funds</h3><p>This work was supported by the National Natural Science Foundation of China under Grant [number 61825103] and the Fundamental Research Funds for The Central Universities under Grant [number 2042022kf1002].</p><h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>Block adjustment (BA) is one of the essential techniques for producing high-precision geospatial 3D data products with optical stereo satellite imagery. For block adjustment with few ground-control points or without ground control, the vertical error of the model is the decisive factor that constrains the accuracy of 3D data products. The elevation data obtained by spaceborne laser altimeter have the advantages of short update periods, high positioning precision, and low acquisition cost, providing sufficient data support for improving the elevation accuracy of stereo models through the combined BA. This paper proposes a geometric positioning model based on the integration of optical satellite stereo imagery (OSSI) and spaceborne laser altimeter data, while illustrating the four key technologies’ implementation algorithms. Firstly, we elaborate the principle and necessity of this work through a literature review of existing methods. Then, the framework of our geo-positioning models integrating OSSI and satellite-based laser control points is illustrated. Secondly, four key technologies of the proposed model are expounded in order, including the acquisition and management of global laser control points, the association of laser control points and OSSI, the block adjustment model combining laser control points with OSSI, and the accuracy estimation and quality control of the combined BA. Next, the combined BA experiment using Ziyuan-3 (ZY-3) satellite three-linear-array optical stereo imagery and ICESat-2 laser data was carried out at the testing site in Shandong Province, China. Experimental results prove that our method can automatically select laser control points with high accuracy. The elevation deviation of the combined BA eventually achieved the mean error (ME) of 0.06 m and the root mean square error (RMSE) of 1.18 m, much lower than the ME of 13.20 m and the RMSE of 3.88 m before the block adjustment. Finally, the conclusion and prospect of our study are given. The assistance of ICESat-2 laser data has significantly improved the elevation accuracy of optical stereo images. A further research direction will be how to perform more adequate accuracy analysis and quality control using massive laser points as checkpoints. Considering the complexity of the global terrain, designing an algorithm that is adaptive to terrain undulations for the association of laser control points with optical stereo models is a possible improvement of our work.</p><h3 id="Keywords"><a href="#Keywords" class="headerlink" title="Keywords"></a>Keywords</h3><p>Spaceborne laser altimeter; ICESat-2; optical stereo imagery; ZY-3; combined block adjustment; block adjustment without ground control; geometric positioning; stereo mapping</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> SCI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ICESat-2/ATLAS global elevation control point extraction system</title>
       <link href="/2022/11/14/patent/"/>
       <url>/2022/11/14/patent/</url>
