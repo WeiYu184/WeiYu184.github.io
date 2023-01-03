@@ -8,32 +8,13 @@
       <link href="/2023/01/03/ICESat-2/"/>
       <url>/2023/01/03/ICESat-2/</url>
       
-        <content type="html"><![CDATA[<h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><p>All data, tools and code presented in this column are derived and developed from the official materials provided by NSIDC (nsidc.org). </p><p>The author has handled global data during her studies, and therefore has made some improvements aiming at data batch processing.</p><p>It is intended to be an introduction in Chinese for those who do not have a basic knowledge of lidar point clouds, but would like to conduct some research with ICESat-2 data.</p><p>Please visit Zhihu to see the ICESat-2数据分析 column.</p><p><a href="https://www.zhihu.com/column/c_1593598182809624576">https://www.zhihu.com/column/c_1593598182809624576</a></p><p>##【ICESat2数据分析】00 - 星载激光测高的物理和数学基础</p><p><a href="https://zhuanlan.zhihu.com/p/596211901">https://zhuanlan.zhihu.com/p/596211901</a></p><p>##【ICESat2数据分析】01 - 初识光子点云</p><p> <a href="https://zhuanlan.zhihu.com/p/596205670">https://zhuanlan.zhihu.com/p/596205670</a></p><p>##【ICESat2数据分析】02 - 数据下载及查看</p><p> <a href="https://zhuanlan.zhihu.com/p/561195069">https://zhuanlan.zhihu.com/p/561195069</a></p><p>##【ICESat2数据分析】03 - 点云可视化</p><p> <a href="https://zhuanlan.zhihu.com/p/596216366">https://zhuanlan.zhihu.com/p/596216366</a></p><p>##【ICESat2数据分析】04 - 数据处理常见问题</p><p> <a href="https://zhuanlan.zhihu.com/p/570750975">https://zhuanlan.zhihu.com/p/570750975</a></p><p>##【ICESat2数据分析】05 - 点云后处理</p><p>##【ICESat2数据分析】06 - 一些有用的工具及网站</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><p>All data, tools and code presented in this column are derived and developed from the official materials provided by NSIDC (nsidc.org). </p><p>The author has handled global data during her studies, and therefore has made some improvements aiming at data batch processing.</p><p>It is intended to be an introduction in Chinese for those who do not have a basic knowledge of lidar point clouds, but would like to conduct some research with ICESat-2 data.</p><p>Please visit Zhihu to see the ICESat-2数据分析 column.</p><p><a href="https://www.zhihu.com/column/c_1593598182809624576">https://www.zhihu.com/column/c_1593598182809624576</a></p><h2 id="00"><a href="#00" class="headerlink" title="00"></a>00</h2><p>【ICESat2数据分析】00 - 星载激光测高的物理和数学基础</p><p><a href="https://zhuanlan.zhihu.com/p/596211901">https://zhuanlan.zhihu.com/p/596211901</a></p><h2 id="01"><a href="#01" class="headerlink" title="01"></a>01</h2><p>【ICESat2数据分析】01 - 初识光子点云</p><p> <a href="https://zhuanlan.zhihu.com/p/596205670">https://zhuanlan.zhihu.com/p/596205670</a></p><h2 id="02"><a href="#02" class="headerlink" title="02"></a>02</h2><p>【ICESat2数据分析】02 - 数据下载及查看</p><p> <a href="https://zhuanlan.zhihu.com/p/561195069">https://zhuanlan.zhihu.com/p/561195069</a></p><h2 id="03"><a href="#03" class="headerlink" title="03"></a>03</h2><p>【ICESat2数据分析】03 - 点云可视化</p><p> <a href="https://zhuanlan.zhihu.com/p/596216366">https://zhuanlan.zhihu.com/p/596216366</a></p><h2 id="04"><a href="#04" class="headerlink" title="04"></a>04</h2><p>【ICESat2数据分析】04 - 数据处理常见问题</p><p> <a href="https://zhuanlan.zhihu.com/p/570750975">https://zhuanlan.zhihu.com/p/570750975</a></p><h2 id="05"><a href="#05" class="headerlink" title="05"></a>05</h2><p>【ICESat2数据分析】05 - 点云后处理</p><h2 id="06"><a href="#06" class="headerlink" title="06"></a>06</h2><p>【ICESat2数据分析】06 - 一些有用的工具及网站</p>]]></content>
       
       
       
         <tags>
             
             <tag> Column </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>lidar data processing by MATLAB</title>
-      <link href="/2023/01/03/biodiversity-1/"/>
-      <url>/2023/01/03/biodiversity-1/</url>
-      
-        <content type="html"><![CDATA[<h2 id="A-brief-introduction"><a href="#A-brief-introduction" class="headerlink" title="A brief introduction"></a>A brief introduction</h2><p>At present, there are two main formats of spaceborne lidar data: full waveform data and photon-counting data.<br>You can find the explanation and the comparison of the two data formats here <a href="https://zhuanlan.zhihu.com/p/596205670">https://zhuanlan.zhihu.com/p/596205670</a></p><p>Here gives the MATLAB code for processing spaceborne lidar data in both formats, especially for large amounts of data (GB-level and T-level).</p><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> MATLAB </tag>
             
         </tags>
       
